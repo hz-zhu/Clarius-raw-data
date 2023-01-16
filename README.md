@@ -8,10 +8,10 @@ To run the code, the following packages are needed with Python 3:
 - Scipy
 - Matplotlib
 
-File “Visual.ipynb” shows an example of directing reading from a tar file. CData is the class that handles tar file processing. It takes three arguments to initialize, which are folder_path (the path to the intended tar file), filename (the name for the tar file), and lzop_path (the path to the unzip_data.exe file that extracts compressed data.
+File “Visual.ipynb” shows an example of directing reading from a tar file. _CData_ is the class that handles tar file processing. It takes three arguments to initialize, which are _folder_path_ (the path to the intended tar file), _filename_ (the name for the tar file), and _lzop_path_ (the path to the unzip_data.exe file that extracts compressed data.
 
-By calling CData.plot_rf(), we can get all raw image data in the file. Examples of how to use the returned object from CData.plot_rf() can be found in function CData.plot_rf(...).
+By calling _CData.plot_rf()_, we can get all raw image data in the file. Examples of how to use the returned object from _CData.plot_rf()_ can be found in function _CData.plot_rf(...)_.
 
-By calling CData.plot_rf(start=0, stop=float('inf'), step), we can visualize the multi-frame data, starting from index start, ending with index stop with increment step step.
+By calling _CData.plot_rf(start=0, stop=float('inf'), step)_, we can visualize the multi-frame data, starting from index _start_, ending with index _stop_ with increment step _step_.
 
 ___Note___: The unzip_data.exe file may be misidentified as a virus. Please white list the file if misidentified. 
